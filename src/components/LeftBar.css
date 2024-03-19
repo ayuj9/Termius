@@ -1,0 +1,17 @@
+.InnerBox{
+color: aliceblue;
+/* margin-bottom: "6px"; */
+  /* border : "solid 1px white"; */
+}
+
+
+
+
+
+#my-button {
+
+  cursor: pointer;
+  user-select: none;
+
+ 
+}
