@@ -92,7 +92,7 @@ export function SideBar(params) {
             <Box
               sx={{
                 marginRight: "17px",
-                height: "34px",
+                height: "30px",
                 borderRadius: "10px",
                 backgroundColor: " #3e4257",
                 display: "flex",
