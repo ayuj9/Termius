@@ -18,8 +18,7 @@ export function SideBar(params) {
       container
       bgcolor="rgba(40,43,61,255)"
       direction="column"
-      sx={{ color: "white" }}
-      height="100vh"
+      sx={{ color: "white", height: "100vh" }}
     >
       <Grid item lg={1} sm={1} md={1}>
         <Grid
@@ -28,15 +27,18 @@ export function SideBar(params) {
           spacing="14vh"
           direction="row"
           sx={{
-            paddingBottom: { lg: "12px", sm: "0px" },
+            paddingBottom: { lg: "12px", sm: "0px", xs: "10px" },
             borderBottom: "solid 0.1vh #3e4257",
-            paddingLeft: { lg: "14px", sm: "14px" },
+            paddingLeft: { lg: "14px", sm: "14px", xs: "20px" },
           }}
         >
           <Grid item>
             <SettingsIcon sx={{ color: "white", fontSize: "20px" }} />
           </Grid>
-          <Grid item sx={{ display: { sm: "none", xs: "none" } }}>
+          <Grid
+            item
+            sx={{ display: { sm: "none", xs: "none", lg: "flex", md: "flex" } }}
+          >
             <TerminalSharpIcon sx={{ color: "white", fontSize: "20px" }} />
           </Grid>
         </Grid>
@@ -47,7 +49,7 @@ export function SideBar(params) {
           spacing="2vh"
           paddingTop={"5px"}
           sx={{
-            paddingLeft: { lg: "26px", sm: "16px" },
+            paddingLeft: { lg: "26px", sm: "16px", xs: "22px" },
             borderBottom: { lg: "solid 0.1vh #3e4257", sm: "none", xs: "none" },
           }}
         >
@@ -71,9 +73,8 @@ export function SideBar(params) {
       <Grid
         item
         lg={6}
-        md={6}
         sm={4}
-        sx={{ display: { sm: "none", lg: "flex", xs: "none" } }}
+        sx={{ display: { sm: "none", lg: "flex", xs: "none", md: "flex" } }}
       >
         <Grid
           container

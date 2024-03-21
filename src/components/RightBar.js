@@ -7,16 +7,16 @@ import ViewAgendaIcon from "@mui/icons-material/ViewAgenda";
 export function RightBar(params) {
   return (
     <>
-      <Grid container item height="100vh" direction="column">
+      <Grid container item sx={{ height: "100vh" }} direction="column">
         <Grid
           item
-          lg={0.8}
+          lg={1}
+          md={0.7}
           sm={1}
           xs={0.5}
           bgcolor="rgba(40,43,61,255)"
           sx={{
             borderBottom: "solid 0.1vh #a5aac0",
-            // display: { xs: "none", lg: "flex", s },
           }}
         >
           <Grid container item color="white" spacing="7vw" direction="row">
@@ -38,7 +38,15 @@ export function RightBar(params) {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item lg={11.2} sm={10.4} xs={8.4} bgcolor="#1d2033" padding="3vh">
+        <Grid
+          item
+          lg={11}
+          md={8.8}
+          sm={9.6}
+          xs={8.4}
+          bgcolor="#1d2033"
+          padding="3vh"
+        >
           <Grid container item direction="column" sx={{ color: "white" }}>
             <Grid
               item
@@ -50,7 +58,13 @@ export function RightBar(params) {
               // spacing="2vh"
             >
               <Grid container height="7vh" direction="column">
-                <Grid item lg={1.5} fontSize="2vh" marginBottom="0.1vh">
+                <Grid
+                  item
+                  lg={1.5}
+                  fontWeight={500}
+                  fontSize="2vh"
+                  marginBottom="0.1vh"
+                >
                   Address
                 </Grid>
 

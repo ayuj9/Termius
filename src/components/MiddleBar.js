@@ -59,8 +59,10 @@ export function MiddleBar(params) {
         container
         item
         direction="column"
-        sx={{ color: "white" }}
-        height="100vh"
+        sx={{
+          color: "white",
+          height: "100vh",
+        }}
       >
         <Grid
           item
@@ -133,8 +135,9 @@ export function MiddleBar(params) {
         <Grid
           item
           lg={10.4}
-          md={10}
+          md={10.6}
           sm={10.6}
+          xs={10.63}
           sx={{ backgroundColor: "#1d2033", border: "solid 0.05vh black" }}
         >
           <Grid container item spacing={6} direction="column" padding={4}>
