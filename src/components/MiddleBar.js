@@ -24,7 +24,7 @@ export function MiddleBar(params) {
     padding: "0.2",
     display: "flex",
     justifyContent: "center",
-    alignItems: "center",
+    alignitems: "center",
     height: "3vh",
   }));
 
@@ -34,7 +34,7 @@ export function MiddleBar(params) {
     padding: "1vh",
     display: "flex",
     // justifyContent: "center",
-    alignItems: "center",
+    alignitems: "center",
     color: "white",
     height: { lg: "10vh", sm: "2vh" },
     fontWeight: "600",
